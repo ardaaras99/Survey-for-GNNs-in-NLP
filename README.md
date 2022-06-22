@@ -3,3 +3,5 @@
 ## Preliminary Definitions
 - Transductive:
 - Inductive:
+
+## Table of Content
