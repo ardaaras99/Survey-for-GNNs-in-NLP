@@ -2,4 +2,4 @@
 
 ## Preliminary Definitions
 - Transductive:
-- Inductive
+- Inductive:
