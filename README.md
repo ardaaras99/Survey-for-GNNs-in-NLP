@@ -1,10 +1,10 @@
-# Main Papers of GNNs in the NLP domain and Interesting Implementations of GNNs in the other Fields.
+# Main Papers of GNNs in the NLP domain
 *Contributed by Arda Can Aras.*
 ## Preliminary Definitions
 - **Transductive**: You have a single graph (like Cora) you split some nodes (and not graphs) into train/val/test training sets. While you're training you'll be using only the labels from your training nodes. During the forward prop, by the nature of how spatial GNNs work, you'll be aggregating the feature vectors from your neighbors and some of them may belong to val or even test sets! The main point is - you ARE NOT using their label information but you ARE using the structural information and their features.
 
 - **Inductive**: You have a set of training graphs, a separate set of val graphs and of course a separate set of test graphs. Generally aim is to learn generalizable transformations of embeddings instead of having direct matrix multiplications like in [GCNConv](https://arxiv.org/abs/1609.02907). 
-- **Heterogeneous Graph**: Graphs that can be directed or can include different type of nodes like in [TextGCN](https://arxiv.org/abs/1809.05679).
+- **Heterogeneous Graph**: Graphs that can be directed or can include different type of nodes like in [TextGCN](https://arxiv.org/abs/1809.05679) (document and word nodes).
 
 Note: For more comprehensive and general GNNs implementation in several different fields, please check this [GitHub repo](https://github.com/ardaaras99/GNNPapers#survey-papers).
 ## [Content](#content)
